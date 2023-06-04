@@ -59,3 +59,22 @@ fn while() {
     println!("LIFTOFF!!!");
 }
 
+// loop over collection with for 
+
+fn for() {
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is {element}");
+    }
+}
+
+
+// loop over range with for 
+
+fn for_range() {
+    for number in (1..4).rev() {
+        println!("{number}!", number);
+    }
+    println!("LIFTOFF!!!");
+}
